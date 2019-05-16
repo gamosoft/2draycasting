@@ -18,7 +18,7 @@ function setup() {
 
     walls.push(new Boundary(0, 0, width-1, 0));
     walls.push(new Boundary(width-1, 0, width-1, height-1));
-    walls.push(new Boundary(width-1, width-1, 0, height-1));
+    walls.push(new Boundary(width-1, height-1, 0, height-1));
     walls.push(new Boundary(0, height-1, 0, 0));
 
     //ray = new Ray(100, 200);
